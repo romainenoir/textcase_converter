@@ -42,17 +42,38 @@ footer {
     font-family: monospace;
 }
 
+.btn_lower:hover {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    font-family: monospace;
+}
+
+
 .btn_title {
     background-color: rgb(182,182,182);
     color: black;
     font-family: monospace;
 }
 
+.btn_title:hover {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    font-family: monospace;
+}
+
+
 .btn_sentence {
     background-color: rgb(182,182,182);
     color: black;
     font-family: monospace;
 }
+
+.btn_sentence:hover {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    font-family: monospace;
+}
+
 
 .textarea {
     background-color: rgb(182,182,182);
