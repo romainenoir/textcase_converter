@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\components"
   ],
-  "SelectedNode": "\\venv",
+  "SelectedNode": "\\components\\forms.py",
   "PreviewInSolutionExplorer": false
 }
