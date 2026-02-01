@@ -37,6 +37,3 @@ def text_converter():
 def index():
     return redirect(url_for("text_converter"))
 
-if __name__ == "__main__":
-    app.run()
-    
