@@ -1,1 +1,5 @@
-venv
+venv/
+__pycache__/
+.vs/
+.vscode/
+./components/__pycache__/
