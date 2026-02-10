@@ -1,6 +1,20 @@
-/**/
+/* GLOBAL */
+
+/*TO INSTALL OWN FONTS*/
+@font-face {
+    font-family: "Bookerly";
+    src: url(fonts/Bookerly.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url(fonts/Bookerly\ Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
 * {
-    font-family: monospace;
+    font-family: "Bookerly";
     box-sizing: border-box;
 }
 
@@ -25,12 +39,14 @@ hr {
     padding: 50px;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 100px;
+    margin: 50px;
     text-align: center;
 }
 
 .textarea {
     background-color: rgb(182,182,182);
+    width: 500px;
+    height: 80px;
     border-radius: 5px;
     font-family: monospace;
 }
@@ -40,7 +56,6 @@ hr {
     border: 1px solid black;
     border-radius: 5px;
     color: black;
-    font-family: monospace;
 }
 
 .btn_case:hover {
