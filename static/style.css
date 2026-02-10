@@ -1,5 +1,7 @@
+/**/
 * {
     font-family: monospace;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,74 +10,64 @@ body {
     text-align: center;
 }
 
-.form_for_text {
-    background-color: rgb(152, 152, 152);
-    display: inline-block;
+hr {
+    opacity: 0;
+}
+
+#page-title {
     padding: 20px;
+}
+
+/* FORM */
+.form_for_text {
+    background-color: rgb(166, 166, 166);
+    display: inline-block;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 100px;
     text-align: center;
 }
 
+.textarea {
+    background-color: rgb(182,182,182);
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.btn_case {
+    background-color: rgb(182,182,182);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-family: monospace;
+}
+
+.btn_case:hover {
+    background-color: rgb(212, 212, 212);
+    transition-duration: 0.5s;
+}
+
+#form_hr {
+    margin: 10px;
+    opacity: 0.25;
+}
+
+/* FOOTER */
 footer {
-    background-color: rgb(165, 165, 165);
     font-family: monospace;
     color: rgb(0, 0, 0);
     text-align: center;
     font: 14px;
     padding: 10px;
+    margin-top: auto;
 }
 
-.btn_upper {
-    background-color: rgb(182,182,182);
+#gh_link {
     color: black;
-    font-family: monospace;
 }
 
-.btn_upper:hover {
-    background-color: rgb(212, 212, 212);
-    color: black;
-    font-family: monospace;
-}
-
-.btn_lower {
-    background-color: rgb(182,182,182);
-    color: black;
-    font-family: monospace;
-}
-
-.btn_lower:hover {
-    background-color: rgb(212, 212, 212);
-    color: black;
-    font-family: monospace;
-}
-
-
-.btn_title {
-    background-color: rgb(182,182,182);
-    color: black;
-    font-family: monospace;
-}
-
-.btn_title:hover {
-    background-color: rgb(212, 212, 212);
-    color: black;
-    font-family: monospace;
-}
-
-
-.btn_sentence {
-    background-color: rgb(182,182,182);
-    color: black;
-    font-family: monospace;
-}
-
-.btn_sentence:hover {
-    background-color: rgb(212, 212, 212);
-    color: black;
-    font-family: monospace;
-}
-
-
-.textarea {
-    background-color: rgb(182,182,182);
-    font-family: monospace;
+#gh_link:hover {
+    color: white;
+    transition-duration: 0.25s;
 }

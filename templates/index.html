@@ -6,16 +6,19 @@
     <h2 id="form_label">{{text_convert.textarea.label}}</h2>
     <p>{{text_convert.textarea(class='textarea')}}</p>
 
-    <p>{{text_convert.uppercase(class='btn_upper')}}</p>
-    <p>{{text_convert.lowercase(class='btn_lower')}}</p>
-    <p>{{text_convert.sentence_case(class='btn_sentence')}}</p>
-    <p>{{text_convert.title_case(class='btn_title')}}</p>
+    <p>{{text_convert.uppercase(class='btn_case')}}</p>
+    <p>{{text_convert.lowercase(class='btn_case')}}</p>
+    <p>{{text_convert.sentence_case(class='btn_case')}}</p>
+    <p>{{text_convert.title_case(class='btn_case')}}</p>
+
+    <div class="converted_text">
+        {% if new_string != None %}
+            <hr id="form_hr">
+            <h3>Converted Text</h3>
+            <p>{{ new_string }}</p> 
+        {% endif %}
+    </div>
 </form>
-<section class="converted_text">
-    {% if new_string != None %}
-        <h3>Converted Text</h3>
-        <p>{{ new_string }}</p> 
-    {% endif %}
-</section>
+
 
 {% endblock%}
