@@ -4,7 +4,7 @@ from components.textcase_functions import request_lower_case, request_sentence_c
 from dotenv import load_dotenv
 import os
 
-load_dotenv(".env")
+load_dotenv()
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
