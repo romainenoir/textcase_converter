@@ -1,10 +1,13 @@
 from flask import Flask, render_template, redirect, url_for
 from components.forms import TextConvertForm
 from components.textcase_functions import request_lower_case, request_sentence_case, request_title_case, request_upper_case
-from config import SECRET_STRING
+from dotenv import load_dotenv
+import os
+
+load_dotenv(".env")
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = SECRET_STRING
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
 
 @app.route("/convert-text", methods=['GET', 'POST'])
 def text_converter():

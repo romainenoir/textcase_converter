@@ -3,6 +3,7 @@ __pycache__/
 .vs/
 .vscode/
 ./components/__pycache__/
+.env
 
 # files
 config.py
