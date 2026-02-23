@@ -8,8 +8,18 @@
  - Sentence Case
 
 • Clean minimal design
+
 • Flask Backend
 
+
+## 🔩TECH STACK
+• Python
+
+• Flask
+
+• HTML
+
+• CSS
 deployed on render: https://textflipper.onrender.com
 
 <p>
