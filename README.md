@@ -1,5 +1,10 @@
 # TEXT CONVERTER 
 
+
+## 📝DESCRIPTION
+simple Flask-based web app that lets users convert text casing (uppercase, lowercase, title case, sentence case, etc.) via a web interface.
+
+
 ## 🧩FEATURES
 • Convert Text To:
  - Uppercase
