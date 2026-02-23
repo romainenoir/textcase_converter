@@ -13,13 +13,15 @@
 
 
 ## 🔩TECH STACK
-• Python
+• Python 🐍
 
 • Flask
 
 • HTML
 
 • CSS
+
+
 deployed on render: https://textflipper.onrender.com
 
 <p>
