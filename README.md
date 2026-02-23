@@ -1,5 +1,13 @@
 # TEXT CONVERTER 
 
+## 🧩Features
+• Convert Text To:
+ - Uppercase
+ - Lowercase
+ - Title Case
+ - Sentence Case
+
+
 deployed on render: https://textflipper.onrender.com
 
 <p>
