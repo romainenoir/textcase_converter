@@ -6,7 +6,8 @@
  - Lowercase
  - Title Case
  - Sentence Case
-
+• Clean minimal design
+• Flask Backend
 
 deployed on render: https://textflipper.onrender.com
 
