@@ -2,7 +2,7 @@
 
 
 ## 📝DESCRIPTION
-simple Flask-based web app that lets users convert text casing (uppercase, lowercase, title case, sentence case, etc.) via a web interface.
+A simple Flask-based web app that lets users convert text casing (uppercase, lowercase, title case, sentence case, etc.) via a web interface.
 
 
 ## 🧩FEATURES
