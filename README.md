@@ -22,8 +22,11 @@
 • CSS
 
 
-deployed on render: https://textflipper.onrender.com
+## 📎DEPLOYED LINK
+ https://textflipper.onrender.com
 
+
+## 📸SCREENSHOTS/EXAMPLES
 <p>
     <img src="static/images/Screenshot_PROGRAM_ 024633.png">
 </p>
