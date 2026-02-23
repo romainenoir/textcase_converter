@@ -6,6 +6,7 @@
  - Lowercase
  - Title Case
  - Sentence Case
+
 • Clean minimal design
 • Flask Backend
 
