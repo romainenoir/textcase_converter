@@ -1,6 +1,6 @@
 # TEXT CONVERTER 
 
-## 🧩Features
+## 🧩FEATURES
 • Convert Text To:
  - Uppercase
  - Lowercase
